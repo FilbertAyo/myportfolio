@@ -408,7 +408,24 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d; }
+  color: #6c757d;
+ }
+
+
+
+
+  .menu-btn{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+  }
+  .menu-btn:focus{
+    outline: none;
+    border: none;
+    color: orange;
+  }
+ 
 
 code {
   font-size: 87.5%;
