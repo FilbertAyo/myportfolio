@@ -29,6 +29,34 @@
         }
     </style>
 
+<style>
+    @keyframes pulse {
+0% {
+transform: scale(1);
+box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+}
+70% {
+transform: scale(1.1);
+box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0);
+}
+100% {
+transform: scale(1);
+box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+}
+}
+
+.badge-live {
+animation: pulse 1.5s infinite;
+color: white;
+background-color: red;
+padding: 5px 10px;
+border-radius: 50px;
+font-weight: bold;
+}
+
+</style>
+
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -55,29 +83,30 @@
         <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-10 heading-section text-center ftco-animate">
-                    <h1 class="big big-2 ">QR code generator</h1>
-                    <h2 class="mb-4 text-primary">QR CODE GENERATOR</h2>
-                    <p>Snapshot of the website <span class="bg-warning text-white px-1">Not hosted</span></p>
+                    <h1 class="big big-2 ">CEO Roundtable</h1>
+                    <h2 class="mb-4 text-primary">THE CEO ROUNDTABLE KENYA</h2>
+                    <span class="badge badge-pill badge-danger badge-live">Live</span>
                 </div>
             </div>
 
             <div class="col-md-12">
                 <div class="resume-wrap ftco-animate">
-                    <img src="/images/qrcode.png" alt="University of Dar es Salaam" class="img-fluid">
+                    <img src="images/ceokenya.png" alt="University of Dar es Salaam" class="img-fluid">
 
                     <span class="position">Project Description </span>
-                    <p class="mt-4">QR Code Generator is a straightforward and efficient web application built with HTML, CSS, and JavaScript. This tool allows users to input text, generate a corresponding QR code instantly, and download it for various uses. The simplicity
-                        and ease of use make it a practical solution for creating QR codes quickly and efficiently.</p>
+                    <p class="mt-4"> The CEO Roundtable Kenya website serves as an exclusive membership platform for top Kenyan executives. It guides CEOs on the registration process, providing a direct and user-friendly experience to join the roundtable. As a premier forum, the platform fosters collaboration, idea-sharing, and leadership development to address industry challenges and drive sustainable growth in Kenya.</p>
                 </div>
 
             </div>
 
 
             <div class="row justify-content-center mt-5">
+               
                 <div class="col-md-6 text-center ftco-animate">
-                    <p><a href="https://github.com/FilbertAyo/QrCode" target="_blank" class="btn btn-primary py-4 px-5">View github</a></p>
+                    <p>
+                        <a href="https://ceoroundtablekenya.com" target="_blank" class="btn btn-primary py-4 px-5">visit Website</a>
+                    </p>
                 </div>
-                
             </div>
         </div>
     </section>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>filbertayo</title>
-
+    <link rel="icon" href="images/bg_1.png" type="images/bg_1.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -28,6 +28,34 @@
             height: auto;
         }
     </style>
+
+<style>
+    @keyframes pulse {
+0% {
+transform: scale(1);
+box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+}
+70% {
+transform: scale(1.1);
+box-shadow: 0 0 10px 10px rgba(255, 0, 0, 0);
+}
+100% {
+transform: scale(1);
+box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+}
+}
+
+.badge-live {
+animation: pulse 1.5s infinite;
+color: white;
+background-color: red;
+padding: 5px 10px;
+border-radius: 50px;
+font-weight: bold;
+}
+
+</style>
+
 
 </head>
 
@@ -57,7 +85,7 @@
                 <div class="col-md-10 heading-section text-center ftco-animate">
                     <h1 class="big big-2 ">iPhone store</h1>
                     <h2 class="mb-4 text-primary">iPHONE LOVERZ TZ</h2>
-                    <p>Snapshot of the website</p>
+                    <span class="badge badge-pill badge-danger badge-live">Live</span>
                 </div>
             </div>
 
@@ -75,12 +103,10 @@
 
 
             <div class="row justify-content-center mt-5">
-                <div class="col-md-6 text-center ftco-animate">
-                    <p><a href="#" target="_blank" class="btn btn-primary py-4 px-5">View github</a></p>
-                </div>
+              
                 <div class="col-md-6 text-center ftco-animate">
                     <p>
-                        <a href="https://iphoneloverz.com/" target="_blank" class="btn btn-primary py-4 px-5">view demo</a>
+                        <a href="https://iphoneloverz.com/" target="_blank" class="btn btn-primary py-4 px-5">visit website</a>
                     </p>
                 </div>
             </div>
